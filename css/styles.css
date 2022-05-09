@@ -1,0 +1,36 @@
+body {
+  background-color: #A1E3D8;
+}
+
+hr {
+  border-color: #2FA4FF;
+  border-style: hidden hidden dotted;
+  border-width: 9px;
+  width: 10%;
+}
+table {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+img {
+  width: 200px;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+h1 {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+h2 {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+h3 {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+table {
+  margin-left: 10%;
+  margin-right: 10%;
+}
