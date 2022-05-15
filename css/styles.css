@@ -1,7 +1,7 @@
 body {
   text-align: center;
-  background-color: #E4F9F5;
-  font-family:  'Open Sans', sans-serif, verdana;
+  /* background-color: #E4F9F5; */
+  font-family:  'Anonymous Pro', sans-serif, verdana;
   font-size: 120%;
 }
 h1 {
@@ -12,6 +12,7 @@ h1 {
   padding: 15px;
   position: relative;
   margin: 50px auto 0 auto;}
+
 .head {
     font-family: 'Anonymous Pro';
   }
@@ -27,12 +28,20 @@ h3 {
 
 
 p {
-  font-family: 'Open Sans';
+  font-family: 'Anonymous Pro';
 }
 table {
   margin-left: auto;
   margin-right: auto;
   width: 600px;
+}
+hr {
+  border: none;
+  border-top: 10px dashed teal;
+  width: 100px;
+  opacity: 50%;
+
+
 }
 .about-me {
   position:relative;
@@ -43,6 +52,9 @@ table {
   background-color: #E4F9F5;
   position: relative;
   padding-top: 25px;
+}
+.bottom-container {
+  background-color:  #66BFBF;
 }
 .mountain {
   display: inline;
@@ -65,4 +77,59 @@ table {
 }
 .skills {
   width: 400px;
+}
+.row {
+  margin: 50px auto 50px auto;
+  width: 500px;
+  text-align: left;
+}
+.skill-img {
+  float: left;
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.chili-img {
+  float: right;
+  width: 150px;
+  margin-top: 20px;
+}
+.skill-description {
+  line-height: 2;
+  margin-top: 5px;
+}
+.chili-description {
+  line-height: 2;
+  margin-top: 5px;
+}
+.contact-me {
+  margin-bottom: 20px;
+  border-radius: 8%;
+}
+.footer-link {
+  margin: auto;
+}
+
+.myButton {
+	box-shadow:inset 0 -3px 7px 0 #29bbff;
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+	background-color:#2dabf9;
+	border-radius:9px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #263666;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+	background-color:#0688fa;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
