@@ -1,40 +1,54 @@
 body {
-  background-color: #E8F9FD;
+  text-align: center;
+  background-color: #E4F9F5;
+  font-family: 'Merriweather', verdana, arial, sans-serif;
+}
+.name {
+  left: 10px;
+  font-size: 280%;
+  padding: 15px;
+  /* margin: 0 auto 0 auto; */
+  position: relative;
+  font-family: 'Anonymous Pro';
+}
+.subname {
+  font-size: 30px;
+  /* margin: 0 auto 0 auto; */
+  /* margin-bottom: 0; */
+  position: relative;
+}
+.about-me {
+  position:relative;
+  margin: 0 auto 0 auto;
+  width: 500px;
+}
+.middle-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 25px;
 }
 
-hr {
-  border-color: #2FA4FF;
-  border-style: hidden hidden dotted;
-  border-width: 9px;
-  width: 10%;
+.mountain {
+  display: inline;
+  position: relative;
 }
-table {
-  margin-left: 10%;
-  margin-right: 10%;
+.top-cloud {
+  position: absolute;
+  /* top: 35%; */
+  right: 30%;
+  margin: -20px auto 0 auto;
 }
-
-img {
+.bottom-cloud {
+  position: absolute;
+  left: 30%;
+  /* display: inline; */
+}
+.profile-pic {
   width: 200px;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin: 0 auto 0 auto;
 }
-
-h1 {
-  color: #79DAE8;
-  margin-left: 30%;
-  margin-right: 30%;
-}
-h2 {
-  color: #79DAE8;
-  margin-left: 30%;
-  margin-right: 30%;
-}
-h3 {
-  color: #79DAE8;
-  margin-left: 30%;
-  margin-right: 30%;
-}
-table {
-  margin-left: 10%;
-  margin-right: 10%;
+.skills {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
 }
