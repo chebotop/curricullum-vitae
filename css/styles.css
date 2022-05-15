@@ -1,8 +1,9 @@
 body {
   text-align: center;
   /* background-color: #E4F9F5; */
-  font-family:  'Anonymous Pro', sans-serif, verdana;
+  font-family:  'Roboto Slab', sans-serif, verdana;
   font-size: 120%;
+  color: #40514E;
 }
 h1 {
   color: #66BFBF;
@@ -21,15 +22,14 @@ h2 {
   font-size: 1.82rem;
   position: relative;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 h3 {
   color: #11999E;
 }
-
-
-p {
+/* p {
   font-family: 'Anonymous Pro';
-}
+} */
 table {
   margin-left: auto;
   margin-right: auto;
@@ -39,7 +39,7 @@ hr {
   border: none;
   border-top: 10px dashed teal;
   width: 100px;
-  opacity: 50%;
+  opacity: 50;
 
 
 }
@@ -132,4 +132,7 @@ hr {
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+.footer-link {
+  padding-top: 20px;
 }
