@@ -126,6 +126,7 @@ a {
 	padding:9px 23px;
 	text-decoration:none;
 	text-shadow:0 1px 0 #263666;
+  margin: 30px 0 10px;
 }
 .myButton:hover {
 	background:linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
@@ -135,6 +136,10 @@ a {
 	position:relative;
 	top:1px;
 }
-.footer-link {
-  padding: 50px 0 20px;
+.social-img {
+  width: 50px;
+  padding-top: 30px;
+}
+.social-img:hover {
+  opacity: 0.5;
 }
